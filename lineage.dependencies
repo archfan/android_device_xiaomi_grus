@@ -1,6 +1,8 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm710-common",
-    "target_path": "device/xiaomi/sdm710-common"
+    "repository": "archfan/android_device_xiaomi_sdm710-common",
+    "target_path": "device/xiaomi/sdm710-common",
+    "branch": "lineage-16.0",
+    "remote": "github"
   }
 ]
