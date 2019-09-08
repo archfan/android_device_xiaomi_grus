@@ -1,10 +1,11 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 0x61
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from sdm845-common
+# Inherit from sdm710-common
 -include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := xiaomi

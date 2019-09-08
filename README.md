@@ -1,27 +1,27 @@
-This repository contains device configuration for Xiaomi MI 8 SE (Sirius)
+This repository contains device configuration for Xiaomi MI 9 SE (Grus)
 
 Basic   | Spec Sheet
 -------:|:----------
-CPU     | Hexa-Core Kryo 385 Silver 1.7GHz
-CPU     | Dual-Core Kryo 385 Gold 2.2GHz
-Chipset | Qualcomm Snapdragon 710, SDM710
+CPU     | 6x Kryo 360 @1.7 GHz (Cortex-A55)
+CPU     | 2x Kryo 360 @2.3 GHz (Cortex-A75)
+Chipset | Qualcomm Snapdragon 712, SDM712
 GPU     | Adreno 616
-ROM     | 64GB 
-RAM     | 4/6GB
-Android | 8.1.0
-Battery | 3120 mAh
-Display | 1080x2244 pixels, 5.88 AMOLED
-Rear Camera  | 12MP+5MP, AI Dual Camera
+ROM     | 64/128GB 
+RAM     | 6GB
+Android | 9.0
+Battery | 3070 mAh
+Display | 1080x2340 pixels, 5.97" AMOLED (432 PPI)
+Rear Camera  | 8/13/48MP, AI Dual Camera
 Front Camera | 20 MP
 
-![Xiaomi MI 8 SE](https://i1.mifile.cn/f/i/18/8i/gallery_list1_2.jpg "Xiaomi MI 8 SE")
+![Xiaomi MI 9 SE](http://phonedb.net/img/xiaomi_mi9_se_2.jpg "Xiaomi MI 9 SE")
 
 ## Copyright
 
 ```
 #
 # Copyright (C) 2018 The LineageOS Project
-#
+# Copyright (C) 2018-2019 0x61
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at

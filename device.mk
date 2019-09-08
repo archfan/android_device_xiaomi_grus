@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 0x61
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -18,7 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2244
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Device uses high-density artwork where available
