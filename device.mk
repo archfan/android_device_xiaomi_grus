@@ -54,13 +54,25 @@ PRODUCT_COPY_FILES += \
 # PRODUCT_PACKAGES += \
 #     lineage.livedisplay@2.0-service.xiaomi_sdm710
 
-# PocketMode
-PRODUCT_PACKAGES += \
-    XiaomiPocketMode
-
 # NoCutoutOverlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.0-impl \
+    com.android.nfc_extras \
+    com.nxp.nfc.nq \
+    com.nxp.nfc.nq.xml \
+    libnqnfc-nci \
+    libnqp61-jcop-kit \
+    nfc_nci.nqx.default \
+    nqnfcee_access.xml \
+    nqnfcse_access.xml \
+    NQNfcNci \
+    SecureElement \
+    Tag \
+    vendor.nxp.hardware.nfc@1.1-service
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -70,6 +82,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hifi_sensors.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
+
+# PocketMode
+PRODUCT_PACKAGES += \
+    XiaomiPocketMode
+
+# Secure element
+PRODUCT_PACKAGES += \
+    SecureElement
 
 # Power
 PRODUCT_COPY_FILES += \
