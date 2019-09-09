@@ -2,6 +2,11 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundfx.type=mi
 
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    audio.offload.video=true \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.sat.fallback.dist=45 \
